@@ -10,7 +10,7 @@ import java.util.*;
 import java.util.regex.Matcher;
 
 /**
- *
+ * Main lexical analyzer to parse the input from the user.
  */
 public class LexicalAnalyzer {
 

@@ -12,6 +12,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * Basic number token, it represent the number for the input string
+ */
 public class NumberToken extends Token {
     public NumberToken(String value) {
         super("number", new BigDecimal(value));
