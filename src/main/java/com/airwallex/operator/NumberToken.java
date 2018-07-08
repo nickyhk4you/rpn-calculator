@@ -6,6 +6,7 @@ import com.airwallex.lex.TokenMatcher;
 import com.airwallex.mode.ClearMode;
 import com.airwallex.mode.UndoMode;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -13,10 +14,10 @@ import java.util.Map;
 
 public class NumberToken extends Token {
     public NumberToken(String value) {
-        super("number", Double.parseDouble(value));
+        super("number", new BigDecimal(value));
     }
 
-    public NumberToken(Double value) {
+    public NumberToken(BigDecimal value) {
         super("NumberToken", value);
     }
 
@@ -24,8 +25,8 @@ public class NumberToken extends Token {
     private UndoMode undoMode;
     private List<NumberToken> undoHistory = new ArrayList<NumberToken>();
 
-    public Double getValue() {
-        return (Double) value;
+    public BigDecimal getValue() {
+        return (BigDecimal) value;
     }
 
     public static TokenMatcher getMatcher() {
