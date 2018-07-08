@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/airwallex.iml" filepath="$PROJECT_DIR$/airwallex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpn.iml" filepath="$PROJECT_DIR$/rpn.iml" />
     </modules>
   </component>
 </project>

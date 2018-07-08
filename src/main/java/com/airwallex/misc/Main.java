@@ -14,6 +14,7 @@ public class Main {
     public static void main(String[] args) throws Exception {
         String inputLine = null;
         Scanner input = new Scanner(System.in);
+        System.out.println("RPN calculator: please input RPN expression ...");
 
         while (input.hasNextLine()) {
             String nextLine = input.nextLine();

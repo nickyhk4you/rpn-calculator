@@ -3,6 +3,7 @@ package com.airwallex.lex;
 
 import com.airwallex.lex.factory.TokenFactory;
 import com.airwallex.operator.*;
+import org.apache.log4j.Logger;
 
 import java.util.*;
 import java.util.regex.Matcher;
@@ -15,6 +16,7 @@ public class LexicalAnalyzer {
     private String expression;
     private List<TokenMatcher> registeredTokens = new ArrayList<TokenMatcher>();
     private List<Token> tokenObjects = new ArrayList<Token>();
+    private static Logger logger = Logger.getLogger(LexicalAnalyzer.class.getClass());
 
     private static Stack<NumberToken> numberTokenStack = new Stack<NumberToken>();
     private Queue<Operator> operatorLinkedList = new LinkedList<Operator>();
@@ -69,7 +71,8 @@ public class LexicalAnalyzer {
                 }
             }
             if (!isMatch) {
-                throw new Exception("Unrecognized token: '" + expression + "'");
+                logger.error("Unrecognized token: '" + expression + "', please verify your RPN expression, exit the calculator...");
+                System.exit(1);
             }
         }
         return tokenObjects;
