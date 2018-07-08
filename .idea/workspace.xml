@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b5d5100-925a-4264-b171-1fde368b3bf0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/airwallex/lex/LexicalAnalyzer.java" afterPath="$PROJECT_DIR$/src/main/java/com/airwallex/lex/LexicalAnalyzer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/airwallex/lex/factory/ITokenFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/airwallex/lex/factory/ITokenFactory.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/airwallex/operator/ClearOperator.java" afterPath="$PROJECT_DIR$/src/main/java/com/airwallex/operator/ClearOperator.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -127,8 +125,8 @@
       <file leaf-file-name="ClearOperator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/airwallex/operator/ClearOperator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="31" column="25" lean-forward="false" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+            <state relative-caret-position="289">
+              <caret line="43" column="82" lean-forward="false" selection-start-line="43" selection-start-column="82" selection-end-line="43" selection-end-column="82" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1028#1041#0" expanded="true" />
@@ -632,7 +630,7 @@
       <updated>1530608143407</updated>
       <workItem from="1530608144854" duration="27634000" />
       <workItem from="1530976845054" duration="13278000" />
-      <workItem from="1530997631329" duration="10496000" />
+      <workItem from="1530997631329" duration="10565000" />
     </task>
     <servers />
   </component>
@@ -669,7 +667,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51408000" />
+    <option name="totallyTimeSpent" value="51477000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
@@ -1142,8 +1140,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/airwallex/operator/ClearOperator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="31" column="25" lean-forward="false" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+        <state relative-caret-position="289">
+          <caret line="43" column="82" lean-forward="false" selection-start-line="43" selection-start-column="82" selection-end-line="43" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1028#1041#0" expanded="true" />

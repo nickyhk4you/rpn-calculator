@@ -41,7 +41,7 @@ public class ClearOperator extends Operator {
                 reversedNumberToken.push(numberToken);
             }
         }
-
+        //only the non lexical mode number token will get cleared inside the stack
         LexicalAnalyzer.getNumberTokenStack().clear();
 
         while(!reversedNumberToken.empty()){
