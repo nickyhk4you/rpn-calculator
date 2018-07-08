@@ -33,6 +33,15 @@ public class NumberToken extends Token {
         return new TokenMatcher("NumberToken", "[\\d.]+");
     }
 
+    @Override
+    public String toString() {
+        return "NumberToken{" +
+                "clearMode=" + clearMode +
+                ", undoMode=" + undoMode +
+                ", value=" + value +
+                '}';
+    }
+
     public ClearMode getClearMode() {
         return clearMode;
     }

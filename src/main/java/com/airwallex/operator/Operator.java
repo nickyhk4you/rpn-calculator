@@ -1,6 +1,7 @@
 package com.airwallex.operator;
 
 import com.airwallex.lex.Token;
+import org.apache.log4j.Logger;
 
 import java.math.BigDecimal;
 import java.util.List;
@@ -11,11 +12,17 @@ import java.util.Stack;
  */
 public abstract class Operator extends Token {
 
+    private static Logger logger = Logger.getLogger(Operator.class.getClass());
+
     public Operator(String type, String value) {
         super(type, value);
     }
 
     public BigDecimal execute(List<NumberToken> numberTokenList) {
+        if(logger.isDebugEnabled()){
+            logger.debug(numberTokenList.toString());
+        }
+        logger.info(numberTokenList.toString());
         return this.executeInternal(numberTokenList);
     }
 

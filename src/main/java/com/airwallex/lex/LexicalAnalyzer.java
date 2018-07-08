@@ -4,6 +4,7 @@ package com.airwallex.lex;
 import com.airwallex.mode.ClearMode;
 import com.airwallex.mode.UndoMode;
 import com.airwallex.operator.*;
+import org.apache.log4j.Logger;
 
 import java.util.*;
 import java.util.regex.Matcher;
@@ -13,6 +14,7 @@ import java.util.regex.Matcher;
  */
 public class LexicalAnalyzer {
 
+    private static Logger logger = Logger.getLogger(LexicalAnalyzer.class.getClass());
     private String expression;
     private List<TokenMatcher> registeredTokens = new ArrayList<TokenMatcher>();
     private Class[] classArray;
@@ -43,7 +45,7 @@ public class LexicalAnalyzer {
         try {
             String path = "com.airwallex.operator." + tokenMatcher.getClassName();
             tokenClass = (Token) Class.forName(path).getConstructor(getClassArray()).newInstance(value);
-            if (tokenClass instanceof Operator ) {
+            if (tokenClass instanceof Operator) {
                 Operator operator = (Operator) tokenClass;
                 operator.setNumberStack(numberTokenStack);
                 this.operatorLinkedList.add(operator);
