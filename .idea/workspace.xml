@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b5d5100-925a-4264-b171-1fde368b3bf0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/airwallex/lex/factory/TokenFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/airwallex/lex/factory/TokenFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/airwallex/operator/Operator.java" afterPath="$PROJECT_DIR$/src/main/java/com/airwallex/operator/Operator.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,6 +15,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Operator.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/airwallex/operator/Operator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ClearMode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/airwallex/mode/ClearMode.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -47,16 +59,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BigDecimal.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip!/java/math/BigDecimal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-403">
-              <caret line="219" column="13" lean-forward="false" selection-start-line="219" selection-start-column="13" selection-end-line="219" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="NumberTokenFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/airwallex/lex/factory/NumberTokenFactory.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -81,7 +83,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TokenFactory.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TokenFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/airwallex/lex/factory/TokenFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -198,7 +200,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/airwallex/operator/NumberToken.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/airwallex/operator/RPNProcessor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/airwallex/operator/Operator.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/airwallex/ComplexRPNCalculatorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/airwallex/lex/factory/BaseTokenFactory.java" />
@@ -211,6 +212,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/airwallex/lex/LexicalAnalyzer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/airwallex/operator/ClearOperator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/airwallex/lex/factory/TokenFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/airwallex/operator/Operator.java" />
       </list>
     </option>
   </component>
@@ -630,7 +632,7 @@
       <updated>1530608143407</updated>
       <workItem from="1530608144854" duration="27634000" />
       <workItem from="1530976845054" duration="13278000" />
-      <workItem from="1530997631329" duration="10611000" />
+      <workItem from="1530997631329" duration="10690000" />
     </task>
     <servers />
   </component>
@@ -667,7 +669,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51523000" />
+    <option name="totallyTimeSpent" value="51602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
@@ -971,16 +973,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/airwallex/operator/Operator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1143,6 +1135,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="68" lean-forward="false" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/airwallex/operator/Operator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

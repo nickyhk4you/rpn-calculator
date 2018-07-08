@@ -18,12 +18,18 @@ public abstract class Operator extends Token {
         super(type, value);
     }
 
+    /**
+     * The template method design pattern here to insert the logging in case of issue tracking.
+     * @param numberTokenList
+     * @return
+     */
     public BigDecimal execute(List<NumberToken> numberTokenList) {
         if(logger.isDebugEnabled()){
             logger.debug(numberTokenList.toString());
         }
         return this.executeInternal(numberTokenList);
     }
+
 
     public abstract BigDecimal executeInternal(List<NumberToken> numberTokenList);
 
