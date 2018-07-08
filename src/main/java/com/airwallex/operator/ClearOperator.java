@@ -8,6 +8,9 @@ import java.math.BigDecimal;
 import java.util.List;
 import java.util.Stack;
 
+/**
+ * Clear Operator
+ */
 public class ClearOperator extends Operator {
     public static TokenMatcher getMatcher() {
         return new TokenMatcher("ClearOperator", "clear");

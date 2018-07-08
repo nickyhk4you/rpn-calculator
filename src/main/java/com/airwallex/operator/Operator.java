@@ -6,6 +6,9 @@ import java.math.BigDecimal;
 import java.util.List;
 import java.util.Stack;
 
+/**
+ * Abstract class for all the operator for lexicial analysis
+ */
 public abstract class Operator extends Token {
 
     public Operator(String type, String value) {
@@ -28,6 +31,10 @@ public abstract class Operator extends Token {
         this.numberStack = numberStack;
     }
 
+    /**
+     * The default accepetable argument for the operator, normally the default argument is 2
+     * @return
+     */
     public int getOperatorAcceptableArgs() {
         return 2;
     }
