@@ -22,7 +22,6 @@ public abstract class Operator extends Token {
         if(logger.isDebugEnabled()){
             logger.debug(numberTokenList.toString());
         }
-        logger.info(numberTokenList.toString());
         return this.executeInternal(numberTokenList);
     }
 

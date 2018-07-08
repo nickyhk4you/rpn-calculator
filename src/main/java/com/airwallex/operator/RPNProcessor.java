@@ -3,6 +3,7 @@ package com.airwallex.operator;
 import com.airwallex.lex.LexicalAnalyzer;
 import com.airwallex.mode.ClearMode;
 import com.airwallex.mode.UndoMode;
+import org.apache.log4j.Logger;
 
 import java.math.BigDecimal;
 import java.util.*;
@@ -13,6 +14,7 @@ import java.util.*;
 public class RPNProcessor {
     private String inputString;
     private LexicalAnalyzer lexicalAnalyzer;
+    private static Logger logger = Logger.getLogger(RPNProcessor.class.getClass());
 
     public RPNProcessor(final String inputString) {
         this.inputString = inputString;
@@ -20,7 +22,7 @@ public class RPNProcessor {
 
 
     public void execute() throws Exception {
-        System.out.println(">> " + inputString);
+        logger.info("input >> " + inputString);
         if (this.lexicalAnalyzer == null) {
             this.lexicalAnalyzer = new LexicalAnalyzer(this.inputString);
         }
