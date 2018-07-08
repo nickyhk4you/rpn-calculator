@@ -1,0 +1,44 @@
+package com.airwallex.operator;
+
+import com.airwallex.lex.TokenMatcher;
+import com.airwallex.mode.UndoMode;
+
+import java.util.List;
+
+public class UndoOperator extends Operator {
+
+    public UndoOperator(String value) {
+        super("undo", value);
+    }
+
+    public UndoOperator(String type, String value) {
+        super(type, value);
+    }
+
+    public static TokenMatcher getMatcher() {
+        return new TokenMatcher("UndoOperator", "undo");
+    }
+
+    public String associativity() {
+        return null;
+    }
+
+    public Double executeInternal(List<NumberToken> numberTokenList) {
+        if (this.getNumberStack() != null) {
+            if (UndoMode.LexicalMode.equals(numberTokenList.get(0).getUndoMode())) {
+                //simply remove it, as we already pop up the fields,nothing need to do here
+            } else if (UndoMode.ResultMode.equals(numberTokenList.get(0).getUndoMode())) {
+                List<NumberToken> undoHistory = numberTokenList.get(0).getUndoHistory();
+                for (NumberToken numberToken : undoHistory) {
+                    this.getNumberStack().push(numberToken);
+                }
+            }
+        }
+        return null;
+    }
+
+    @Override
+    public int getOperatorAcceptableArgs() {
+        return 1;
+    }
+}
