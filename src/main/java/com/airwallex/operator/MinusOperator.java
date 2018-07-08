@@ -3,6 +3,7 @@ package com.airwallex.operator;
 
 import com.airwallex.lex.TokenMatcher;
 
+import java.math.BigDecimal;
 import java.util.List;
 
 public class MinusOperator extends Operator {
@@ -14,8 +15,8 @@ public class MinusOperator extends Operator {
         return new TokenMatcher("MinusOperator", "\\-");
     }
 
-    public Double executeInternal(List<NumberToken> numberTokenList) {
-        return numberTokenList.get(1).getValue() - numberTokenList.get(0).getValue();
+    public BigDecimal executeInternal(List<NumberToken> numberTokenList) {
+        return numberTokenList.get(1).getValue().subtract(numberTokenList.get(0).getValue());
     }
 
 }

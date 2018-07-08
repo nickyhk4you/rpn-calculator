@@ -4,6 +4,7 @@ import com.airwallex.lex.LexicalAnalyzer;
 import com.airwallex.mode.ClearMode;
 import com.airwallex.mode.UndoMode;
 
+import java.math.BigDecimal;
 import java.util.*;
 
 /**
@@ -35,7 +36,7 @@ public class RPNProcessor {
             for (int i = 0; i < operator.getOperatorAcceptableArgs(); i++) {
                 numberTokenList.add(operator.getNumberStack().pop());
             }
-            Double result = operator.execute(numberTokenList);
+            BigDecimal result = operator.execute(numberTokenList);
             if (result != null) {
                 NumberToken resultNumberToken = new NumberToken(result);
                 resultNumberToken.setUndoMode(UndoMode.ResultMode);

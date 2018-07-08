@@ -4,6 +4,7 @@ import com.airwallex.lex.LexicalAnalyzer;
 import com.airwallex.lex.TokenMatcher;
 import com.airwallex.mode.ClearMode;
 
+import java.math.BigDecimal;
 import java.util.List;
 import java.util.Stack;
 
@@ -20,7 +21,7 @@ public class ClearOperator extends Operator {
         super(type, value);
     }
 
-    public Double executeInternal(List<NumberToken> numberTokenList) {
+    public BigDecimal executeInternal(List<NumberToken> numberTokenList) {
 
         Stack<NumberToken> reversedNumberToken = new Stack<NumberToken>();
 

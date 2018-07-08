@@ -2,6 +2,7 @@ package com.airwallex.operator;
 
 import com.airwallex.lex.TokenMatcher;
 
+import java.math.BigDecimal;
 import java.util.List;
 
 public class SqrtOperator extends Operator{
@@ -13,8 +14,8 @@ public class SqrtOperator extends Operator{
         return new TokenMatcher("SqrtOperator", "sqrt");
     }
 
-    public Double executeInternal(List<NumberToken> numberTokenList) {
-        return Math.sqrt(numberTokenList.get(0).getValue());
+    public BigDecimal executeInternal(List<NumberToken> numberTokenList) {
+        return new BigDecimal(Math.sqrt(numberTokenList.get(0).getValue().doubleValue()));
     }
     @Override
     public int getOperatorAcceptableArgs() {

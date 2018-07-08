@@ -2,6 +2,7 @@ package com.airwallex.operator;
 
 import com.airwallex.lex.Token;
 
+import java.math.BigDecimal;
 import java.util.List;
 import java.util.Stack;
 
@@ -11,11 +12,11 @@ public abstract class Operator extends Token {
         super(type, value);
     }
 
-    public Double execute(List<NumberToken> numberTokenList) {
+    public BigDecimal execute(List<NumberToken> numberTokenList) {
         return this.executeInternal(numberTokenList);
     }
 
-    public abstract Double executeInternal(List<NumberToken> numberTokenList);
+    public abstract BigDecimal executeInternal(List<NumberToken> numberTokenList);
 
     private Stack<NumberToken> numberStack;
 

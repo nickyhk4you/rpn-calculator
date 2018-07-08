@@ -3,6 +3,7 @@ package com.airwallex.operator;
 
 import com.airwallex.lex.TokenMatcher;
 
+import java.math.BigDecimal;
 import java.util.List;
 
 /**
@@ -17,11 +18,11 @@ public class DivideOperator extends Operator {
         return new TokenMatcher("DivideOperator", "\\/");
     }
 
-    public Double executeInternal(List<NumberToken> numberTokenList) {
-        if(numberTokenList.get(1).getValue() == 0){
-            return Double.NaN;
+    public BigDecimal executeInternal(List<NumberToken> numberTokenList) {
+        if(numberTokenList.get(1).getValue().doubleValue() == 0){
+            return new BigDecimal(Double.NaN);
         }
-        return numberTokenList.get(1).getValue() / numberTokenList.get(0).getValue();
+        return numberTokenList.get(1).getValue().divide(numberTokenList.get(0).getValue());
     }
 
 }

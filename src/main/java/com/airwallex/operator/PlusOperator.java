@@ -3,6 +3,7 @@ package com.airwallex.operator;
 
 import com.airwallex.lex.TokenMatcher;
 
+import java.math.BigDecimal;
 import java.util.List;
 
 /**
@@ -17,8 +18,8 @@ public class PlusOperator extends Operator {
         return new TokenMatcher("PlusOperator", "\\+");
     }
 
-    public Double executeInternal(List<NumberToken> numberTokenList) {
-        return  numberTokenList.get(1).getValue() + numberTokenList.get(0).getValue();
+    public BigDecimal executeInternal(List<NumberToken> numberTokenList) {
+        return numberTokenList.get(1).getValue().add(numberTokenList.get(0).getValue());
     }
 
 }
