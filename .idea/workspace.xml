@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b5d5100-925a-4264-b171-1fde368b3bf0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/airwallex/operator/Operator.java" afterPath="$PROJECT_DIR$/src/main/java/com/airwallex/operator/Operator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/airwallex/operator/RPNProcessor.java" afterPath="$PROJECT_DIR$/src/main/java/com/airwallex/operator/RPNProcessor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/airwallex/ComplexRPNCalculatorTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,11 +17,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Operator.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Operator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/airwallex/operator/Operator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
               <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ComplexRPNCalculatorTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/airwallex/ComplexRPNCalculatorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlusMinusMultiplyDivideTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/airwallex/PlusMinusMultiplyDivideTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,18 +69,6 @@
             <state relative-caret-position="194">
               <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/airwallex/misc/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -118,26 +141,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -206,12 +209,13 @@
         <option value="$PROJECT_DIR$/src/test/java/com/airwallex/SqrtOperationTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/airwallex/PlusMinusMultiplyDivideTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/airwallex/misc/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/airwallex/operator/NumberToken.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/airwallex/lex/LexicalAnalyzer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/airwallex/operator/RPNProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/airwallex/operator/Operator.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/airwallex/ComplexRPNCalculatorTest.java" />
       </list>
     </option>
   </component>
@@ -395,7 +399,82 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.ComplexRPNCalculatorTest">
+    <configuration name="ComplexRPNCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.airwallex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="airwallex" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.airwallex" />
+      <option name="MAIN_CLASS_NAME" value="com.airwallex.ComplexRPNCalculatorTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="ComplexRPNCalculatorTest.complexClearOperationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.airwallex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="airwallex" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.airwallex" />
+      <option name="MAIN_CLASS_NAME" value="com.airwallex.ComplexRPNCalculatorTest" />
+      <option name="METHOD_NAME" value="complexClearOperationTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="ComplexRPNCalculatorTest.complexOperation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.airwallex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="airwallex" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.airwallex" />
+      <option name="MAIN_CLASS_NAME" value="com.airwallex.ComplexRPNCalculatorTest" />
+      <option name="METHOD_NAME" value="complexOperation" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -429,81 +508,6 @@
       <option name="MAIN_CLASS_NAME" value="com.airwallex.PlusMinusMultiplyDivideTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="PlusMinusMultiplyDivideTest.minusOperation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.airwallex.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="airwallex" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.airwallex" />
-      <option name="MAIN_CLASS_NAME" value="com.airwallex.PlusMinusMultiplyDivideTest" />
-      <option name="METHOD_NAME" value="minusOperation" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="RegexTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.airwallex.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="airwallex" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.airwallex" />
-      <option name="MAIN_CLASS_NAME" value="com.airwallex.RegexTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="SqrtOperationTest.numberReg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.airwallex.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="airwallex" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.airwallex" />
-      <option name="MAIN_CLASS_NAME" value="com.airwallex.SqrtOperationTest" />
-      <option name="METHOD_NAME" value="numberReg" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -597,19 +601,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.RegexTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.SqrtOperationTest.numberReg" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.PlusMinusMultiplyDivideTest.minusOperation" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PlusMinusMultiplyDivideTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.PlusMinusMultiplyDivideTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ComplexRPNCalculatorTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ComplexRPNCalculatorTest.complexOperation" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ComplexRPNCalculatorTest.complexClearOperationTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PlusMinusMultiplyDivideTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PlusMinusMultiplyDivideTest.minusOperation" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.SqrtOperationTest.numberReg" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.RegexTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ComplexRPNCalculatorTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ComplexRPNCalculatorTest.complexClearOperationTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ComplexRPNCalculatorTest.complexOperation" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PlusMinusMultiplyDivideTest" />
       </list>
     </recent_temporary>
   </component>
@@ -625,11 +629,29 @@
       <updated>1530608143407</updated>
       <workItem from="1530608144854" duration="27634000" />
       <workItem from="1530976845054" duration="13278000" />
-      <workItem from="1530997631329" duration="7135000" />
+      <workItem from="1530997631329" duration="7690000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="ComplexRPNCalculatorTest - 2018.07.08 at 21h 19m 32s.xml">
+      <configuration name="ComplexRPNCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ComplexRPNCalculatorTest - 2018.07.08 at 21h 19m 50s.xml">
+      <configuration name="ComplexRPNCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ComplexRPNCalculatorTest - 2018.07.08 at 21h 23m 18s.xml">
+      <configuration name="ComplexRPNCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ComplexRPNCalculatorTest_complexClearOperationTest - 2018.07.08 at 21h 23m 09s.xml">
+      <configuration name="ComplexRPNCalculatorTest.complexClearOperationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ComplexRPNCalculatorTest_complexOperation - 2018.07.08 at 21h 20m 14s.xml">
+      <configuration name="ComplexRPNCalculatorTest.complexOperation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ComplexRPNCalculatorTest_complexOperation - 2018.07.08 at 21h 22m 55s.xml">
+      <configuration name="ComplexRPNCalculatorTest.complexOperation" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="PlusMinusMultiplyDivideTest - 2018.07.08 at 20h 58m 03s.xml">
       <configuration name="PlusMinusMultiplyDivideTest" configurationId="JUnit" />
     </history-entry>
@@ -642,21 +664,9 @@
     <history-entry file="PlusMinusMultiplyDivideTest_minusOperation - 2018.07.08 at 20h 57m 55s.xml">
       <configuration name="PlusMinusMultiplyDivideTest.minusOperation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlusTest_numberReg - 2018.07.08 at 20h 54m 35s.xml">
-      <configuration name="PlusTest.numberReg" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RegexTest - 2018.07.08 at 20h 47m 09s.xml">
-      <configuration name="RegexTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RegexTest - 2018.07.08 at 20h 54m 30s.xml">
-      <configuration name="RegexTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RegexTest_operatonMultiplyReg - 2018.07.08 at 20h 46m 59s.xml">
-      <configuration name="RegexTest.operatonMultiplyReg" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48047000" />
+    <option name="totallyTimeSpent" value="48602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
@@ -671,7 +681,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32958803" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32958803" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -717,7 +727,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/calc/TgFunction.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/calc/CosFunction.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/calc/CtgFunction.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/calc/PowerOperator.java" />
@@ -997,28 +1006,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/airwallex/PlusMinusMultiplyDivideTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-80">
-          <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -1103,6 +1094,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/airwallex/PlusMinusMultiplyDivideTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/airwallex/ComplexRPNCalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
