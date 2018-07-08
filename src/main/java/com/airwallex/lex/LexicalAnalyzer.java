@@ -1,8 +1,7 @@
 package com.airwallex.lex;
 
 
-import com.airwallex.mode.ClearMode;
-import com.airwallex.mode.UndoMode;
+import com.airwallex.lex.factory.TokenFactory;
 import com.airwallex.operator.*;
 import org.apache.log4j.Logger;
 
@@ -14,10 +13,8 @@ import java.util.regex.Matcher;
  */
 public class LexicalAnalyzer {
 
-    private static Logger logger = Logger.getLogger(LexicalAnalyzer.class.getClass());
     private String expression;
     private List<TokenMatcher> registeredTokens = new ArrayList<TokenMatcher>();
-    private Class[] classArray;
     private List<Token> tokenObjects = new ArrayList<Token>();
 
     private static Stack<NumberToken> numberTokenStack = new Stack<NumberToken>();
@@ -40,26 +37,7 @@ public class LexicalAnalyzer {
     }
 
     private Token tokenFactory(TokenMatcher tokenMatcher, String value) throws Exception {
-
-        Token tokenClass = null;
-        try {
-            String path = "com.airwallex.operator." + tokenMatcher.getClassName();
-            tokenClass = (Token) Class.forName(path).getConstructor(getClassArray()).newInstance(value);
-            if (tokenClass instanceof Operator) {
-                Operator operator = (Operator) tokenClass;
-                operator.setNumberStack(numberTokenStack);
-                this.operatorLinkedList.add(operator);
-            } else if (tokenClass instanceof NumberToken) {
-                NumberToken numberToken = (NumberToken) tokenClass;
-                numberToken.setClearMode(ClearMode.LexicalMode);
-                numberToken.setUndoMode(UndoMode.LexicalMode);
-                this.numberTokenStack.push(numberToken);
-            }
-        } catch (Exception e) {
-            throw new Exception("Lexer: " + e.getMessage());
-        }
-
-        return tokenClass;
+        return TokenFactory.createInstance(tokenMatcher, value, operatorLinkedList);
     }
 
 
@@ -68,12 +46,12 @@ public class LexicalAnalyzer {
 
         while (expression.length() > 0) {
             isMatch = false;
-            for (TokenMatcher tr : registeredTokens) {
-                Matcher m = tr.getRegexp().matcher(expression);
-                if (!isMatch && m.find()) {
+            for (TokenMatcher tokenMatcher : registeredTokens) {
+                Matcher matcher = tokenMatcher.getRegexp().matcher(expression);
+                if (!isMatch && matcher.find()) {
                     isMatch = true;
-                    tokenObjects.add(tokenFactory(tr, m.group()));
-                    expression = expression.substring(m.group().length());
+                    tokenObjects.add(tokenFactory(tokenMatcher, matcher.group()));
+                    expression = expression.substring(matcher.group().length());
                     expression = expression.startsWith(" ") ? expression.substring(1) : expression;
                     break;
                 }
@@ -85,14 +63,6 @@ public class LexicalAnalyzer {
         return tokenObjects;
     }
 
-
-    private Class[] getClassArray() {
-        if (this.classArray == null) {
-            this.classArray = new Class[1];
-            classArray[0] = String.class;
-        }
-        return classArray;
-    }
 
     public Queue<Operator> getOperatorLinkedList() {
         return operatorLinkedList;

@@ -21,6 +21,6 @@ public class NumberTokenFactory extends BaseTokenFactory{
         numberToken.setUndoMode(UndoMode.LexicalMode);
 
         LexicalAnalyzer.getNumberTokenStack().push(numberToken);
-        return null;
+        return numberToken;
     }
 }

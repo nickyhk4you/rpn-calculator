@@ -25,7 +25,7 @@ public class ComplexRPNCalculatorTest {
 
 
     @Test
-    public void complexUndoOperationTest() {
+    public void complexclear2OperationTest() {
         String input = "1 2 3 4 5";
         RPNProcessor processor = new RPNProcessor(input);
         try {
