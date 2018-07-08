@@ -6,6 +6,9 @@ import com.airwallex.operator.Operator;
 
 import java.util.Queue;
 
+/**
+ * token factory interface to create the number token or operator token
+ */
 public interface ITokenFactory {
 
     public Token createTokenInstance(TokenMatcher tokenMatcher, String value);

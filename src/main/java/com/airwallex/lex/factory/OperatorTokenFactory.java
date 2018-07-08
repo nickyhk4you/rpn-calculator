@@ -6,7 +6,7 @@ import com.airwallex.lex.TokenMatcher;
 import com.airwallex.operator.Operator;
 
 /**
- *
+ * operator token factory for  + - * / sqrt clear undo command
  */
 public class OperatorTokenFactory extends BaseTokenFactory {
 

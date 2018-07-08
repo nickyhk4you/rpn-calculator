@@ -41,6 +41,11 @@ public class LexicalAnalyzer {
     }
 
 
+    /**
+     * Tokenize by scanning the user's input and create the token list through the regex
+     * @return the list of token
+     * @throws Exception
+     */
     public List<Token> tokenize() throws Exception {
         boolean isMatch = false;
 

@@ -7,6 +7,9 @@ import com.airwallex.operator.Operator;
 import java.util.LinkedList;
 import java.util.Queue;
 
+/**
+ * Base token factory for generate the token class through reflection
+ */
 public abstract class BaseTokenFactory implements ITokenFactory {
 
     private Class[] classArray;
