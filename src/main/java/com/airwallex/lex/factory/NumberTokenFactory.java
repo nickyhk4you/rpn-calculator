@@ -25,7 +25,7 @@ public class NumberTokenFactory extends BaseTokenFactory{
         Token tokenInstance = this.getTokenInstance(tokenMatcher, value);
         NumberToken numberToken = (NumberToken) tokenInstance;
         numberToken.setClearMode(ClearMode.LexicalMode);
-        numberToken.setUndoMode(UndoMode.LexicalMode);
+        numberToken.setUndoMode(UndoMode.OriginalUndoMode);
 
         LexicalAnalyzer.getNumberTokenStack().push(numberToken);
         return numberToken;

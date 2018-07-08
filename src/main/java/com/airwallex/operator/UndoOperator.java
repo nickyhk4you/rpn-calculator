@@ -26,9 +26,9 @@ public class UndoOperator extends Operator {
 
     public BigDecimal executeInternal(List<NumberToken> numberTokenList) {
         if (this.getNumberStack() != null) {
-            if (UndoMode.LexicalMode.equals(numberTokenList.get(0).getUndoMode())) {
+            if (UndoMode.OriginalUndoMode.equals(numberTokenList.get(0).getUndoMode())) {
                 //simply remove it, as we already pop up the fields,nothing need to do here
-            } else if (UndoMode.ResultMode.equals(numberTokenList.get(0).getUndoMode())) {
+            } else if (UndoMode.CalculatedUndoMode.equals(numberTokenList.get(0).getUndoMode())) {
                 List<NumberToken> undoHistory = numberTokenList.get(0).getUndoHistory();
                 for (NumberToken numberToken : undoHistory) {
                     this.getNumberStack().push(numberToken);

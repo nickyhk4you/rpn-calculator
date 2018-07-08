@@ -41,7 +41,7 @@ public class RPNProcessor {
             BigDecimal result = operator.execute(numberTokenList);
             if (result != null) {
                 NumberToken resultNumberToken = new NumberToken(result);
-                resultNumberToken.setUndoMode(UndoMode.ResultMode);
+                resultNumberToken.setUndoMode(UndoMode.CalculatedUndoMode);
                 resultNumberToken.setUndoHistory(numberTokenList);
                 LexicalAnalyzer.getNumberTokenStack().push(resultNumberToken);
                 for (int j = 0; j < LexicalAnalyzer.getNumberTokenStack().size(); j++) {
