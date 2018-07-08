@@ -24,6 +24,13 @@ public class ClearOperator extends Operator {
         super(type, value);
     }
 
+    /**
+     * The business logic for clear command. In case of the Clear command is fired, the {@link ClearMode} LexicalMode will not be cleared.
+     * It will dummped into a temp Stack, and then push it back into the original result stack
+     *
+     * @param numberTokenList
+     * @return null value
+     */
     public BigDecimal executeInternal(List<NumberToken> numberTokenList) {
 
         Stack<NumberToken> reversedNumberToken = new Stack<NumberToken>();
