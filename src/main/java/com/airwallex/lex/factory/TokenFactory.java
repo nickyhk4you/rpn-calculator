@@ -6,6 +6,9 @@ import com.airwallex.operator.Operator;
 
 import java.util.Queue;
 
+/**
+ * Entry point of token factory, it uses the factory design pattern.
+ */
 public class TokenFactory {
 
     public static Token createInstance(TokenMatcher tokenMatcher, String value,Queue<Operator> operatorLinkedList ) {
