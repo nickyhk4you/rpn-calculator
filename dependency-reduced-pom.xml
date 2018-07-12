@@ -35,7 +35,7 @@
             <configuration>
               <transformers>
                 <transformer>
-                  <mainClass>com.airwallex.misc.Main</mainClass>
+                  <mainClass>com.demo.misc.Main</mainClass>
                 </transformer>
               </transformers>
             </configuration>
