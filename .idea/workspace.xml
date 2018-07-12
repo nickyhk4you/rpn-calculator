@@ -2,35 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b5d5100-925a-4264-b171-1fde368b3bf0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/airwallex.iml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/airwallex/lex/LexicalAnalyzer.java" afterPath="$PROJECT_DIR$/src/main/java/com/demo/lex/LexicalAnalyzer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/airwallex/lex/Token.java" afterPath="$PROJECT_DIR$/src/main/java/com/demo/lex/Token.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/airwallex/lex/TokenMatcher.java" afterPath="$PROJECT_DIR$/src/main/java/com/demo/lex/TokenMatcher.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/airwallex/lex/factory/BaseTokenFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/demo/lex/factory/BaseTokenFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/airwallex/lex/factory/ITokenFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/demo/lex/factory/ITokenFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/airwallex/lex/factory/NumberTokenFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/demo/lex/factory/NumberTokenFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/airwallex/lex/factory/OperatorTokenFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/demo/lex/factory/OperatorTokenFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/airwallex/lex/factory/TokenFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/demo/lex/factory/TokenFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/airwallex/misc/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/demo/misc/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/airwallex/mode/ClearMode.java" afterPath="$PROJECT_DIR$/src/main/java/com/demo/mode/ClearMode.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/airwallex/mode/UndoMode.java" afterPath="$PROJECT_DIR$/src/main/java/com/demo/mode/UndoMode.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/airwallex/operator/ClearOperator.java" afterPath="$PROJECT_DIR$/src/main/java/com/demo/operator/ClearOperator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/airwallex/operator/DivideOperator.java" afterPath="$PROJECT_DIR$/src/main/java/com/demo/operator/DivideOperator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/airwallex/operator/MinusOperator.java" afterPath="$PROJECT_DIR$/src/main/java/com/demo/operator/MinusOperator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/airwallex/operator/MultiplyOperator.java" afterPath="$PROJECT_DIR$/src/main/java/com/demo/operator/MultiplyOperator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/airwallex/operator/NumberToken.java" afterPath="$PROJECT_DIR$/src/main/java/com/demo/operator/NumberToken.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/airwallex/operator/Operator.java" afterPath="$PROJECT_DIR$/src/main/java/com/demo/operator/Operator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/airwallex/operator/PlusOperator.java" afterPath="$PROJECT_DIR$/src/main/java/com/demo/operator/PlusOperator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/airwallex/operator/RPNProcessor.java" afterPath="$PROJECT_DIR$/src/main/java/com/demo/operator/RPNProcessor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/airwallex/operator/SqrtOperator.java" afterPath="$PROJECT_DIR$/src/main/java/com/demo/operator/SqrtOperator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/airwallex/operator/UndoOperator.java" afterPath="$PROJECT_DIR$/src/main/java/com/demo/operator/UndoOperator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/airwallex/ComplexRPNCalculatorTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/demo/ComplexRPNCalculatorTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/airwallex/PlusMinusMultiplyDivideTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/demo/PlusMinusMultiplyDivideTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/airwallex/RegexTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/demo/RegexTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/airwallex/SqrtOperationTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/demo/SqrtOperationTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,19 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NumberToken.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/operator/NumberToken.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-              <folding>
-                <element signature="e#705#706#0" expanded="true" />
-                <element signature="e#746#747#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RPNProcessor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/operator/RPNProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -110,12 +70,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-116">
               <caret line="30" column="31" lean-forward="false" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="105">
+                <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -229,6 +202,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/airwallex/lex/LexicalAnalyzer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/airwallex/misc/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/demo/lex/factory/NumberTokenFactory.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -595,7 +569,7 @@
       <workItem from="1530608144854" duration="27634000" />
       <workItem from="1530976845054" duration="13278000" />
       <workItem from="1530997631329" duration="13159000" />
-      <workItem from="1531365366582" duration="1368000" />
+      <workItem from="1531365366582" duration="1560000" />
     </task>
     <servers />
   </component>
@@ -632,7 +606,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55439000" />
+    <option name="totallyTimeSpent" value="55631000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
@@ -699,7 +673,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/calc/PlusOperator.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/airwallex/operator/Main.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip!/java/util/regex/Matcher.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1033,6 +1006,17 @@
         <state relative-caret-position="-116">
           <caret line="30" column="31" lean-forward="false" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="105">
+            <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
